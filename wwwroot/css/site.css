@@ -111,4 +111,4 @@ body {
 
 .nav-link:hover { background-color: #ff8f65 !important; }
 
-.field-validation-error, .validation-summary-errors, .input-validation-error { color: white !important; }
+.text-danger { color: white !important; }
