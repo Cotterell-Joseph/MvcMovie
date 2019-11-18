@@ -1,0 +1,114 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+#movies{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#movies td, #movies tr{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#movies tr:nth-child(even) { background-color: #4c64ff;}
+
+#movies tr:nth-child(odd) { background-color: #ff8f65;}
+
+#movies tr:hover{ background-color: #ddd;}
+
+#movies th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #001496;
+    color: white;
+}
+
+#movies th a {
+    color: #ddd;
+}
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #001496;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #4C64FF;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #001496;
+  border-color: #1861ac;
+}
+
+navbar-brand {
+    background-color: #001496;
+    color: white;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #001496;
+}
+.border-bottom {
+  border-bottom: 1px solid #001496;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  background-color: #FF5719;
+  color: #4C64FF;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px; /* Vertically center the text there */
+}
+.navbar, .navbar-brand, .nav-link, .footer {
+    color: white !important;
+    background-color: #001496 !important;
+}
+
+.nav-link:hover { background-color: #ff8f65 !important; }
+
+.field-validation-error, .validation-summary-errors, .input-validation-error { color: white !important; }
